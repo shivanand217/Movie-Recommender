@@ -1,2 +1,5 @@
 # recommendation-engine
-Recommendation engine. Pearson coefficient and euclidean as a metric.
+-- Recommendation engine for Movie Lens Dataset.
+-- 
+
+Pearson coefficient and euclidean as a metric.
