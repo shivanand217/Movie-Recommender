@@ -15,7 +15,9 @@
       the Tanimoto score.
       Tanimoto Coefficient
      The Tanimoto coefficient between two points, a and b, with k dimensions is calculated as:
-     [a link](https://docs.tibco.com/pub/spotfire/6.5.3/doc/html/images/hc_tanimoto_coefficient_eq_1.png)
+     
+     ![alt text](https://docs.tibco.com/pub/spotfire/6.5.3/doc/html/images/hc_tanimoto_coefficient_eq_1.png)
+     
      The Tanimoto similarity is only applicable for a binary variable, and for binary variables the Tanimoto coefficient ranges from 0 to      +1 (where +1 is the highest similarity).
 
 - [ ] Tag similarity. Using the del.icio.us API, create a dataset of tags and items. Use
