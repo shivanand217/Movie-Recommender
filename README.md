@@ -13,7 +13,7 @@
 - [ ] Tanimoto score. In what cases could this be used as the similarity metric instead
       of Euclidean distance or Pearson coefficient? Create a new similarity function using
       the Tanimoto score.
-      Tanimoto Coefficient
+      
      The Tanimoto coefficient between two points, a and b, with k dimensions is calculated as:
      
      ![alt text](https://docs.tibco.com/pub/spotfire/6.5.3/doc/html/images/hc_tanimoto_coefficient_eq_1.png)
