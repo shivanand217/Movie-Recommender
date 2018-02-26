@@ -5,7 +5,6 @@ import zipfile
 
 # download and extract MovieLens dataset if it's not present
 if not os.path.exists('ml-100k/u.item') or not os.path.exists('ml-100k/u.data'):
-    
     zip_download = get('http://files.grouplens.org/datasets/movielens/ml-100k.zip')
     
     with open('ml-100k.zip', 'wb') as f:
@@ -16,7 +15,7 @@ if not os.path.exists('ml-100k/u.item') or not os.path.exists('ml-100k/u.data'):
         zip_file.extract('ml-100k/u.item')
 
 critics  =  {
-            'Shiv Anand':
+            'Shashwat Vikram':
                     {'Dark knight': 5.5, 'Forest Gump': 3.5,
                     'Why Him': 3.0, 'Superman Returns': 3.5,
                     'You, Me and Dupree': 2.5, 'The Night Listener': 3.0},
@@ -27,19 +26,19 @@ critics  =  {
             'Vaibhav Vasant':
                     {'Lady in the Water': 2.5, 'Forest Gump': 5.0,
                     'Dark Knight': 5.0, 'The Night Listener': 4.0},
-            'Shivam':
+            'Shivam Thakur':
                     {'Snakes on a Plane': 3.5, 'Just My Luck': 3.0,
                     'The Night Listener': 4.5, 'Superman Returns': 4.0,
                     'You, Me and Dupree': 2.5},
-            'Vicky':
+            'Shashank Singh':
                     {'Lady in the Water': 3.0, 'Snakes on a Plane': 4.0,
                     'Just My Luck': 2.0, 'Superman Returns': 3.0,
                     'The Night Listener': 3.0, 'You, Me and Dupree': 2.0},
-            'Harshit':
+            'Vicky':
                     {'Lady in the Water': 3.0, 'Snakes on a Plane': 4.0,
                     'The Night Listener': 3.0, 'Superman Returns': 5.0,
                     'You, Me and Dupree': 3.5},
-            'Raushan':
+            'Shiv Anand':
                     {'Snakes on a Plane': 4.5, 'You, Me and Dupree': 1.0,
                     'Superman Returns': 4.0}
            }
