@@ -49,16 +49,14 @@ def shared_items_fn(prefs, person1, person2):
 
 # euclidean distance between two people
 def sim_distance(prefs, person1, person2):
-
+    
     shared_items = shared_items_fn(prefs, person1, person2)
-
     if len(shared_items) == 0:
         return 0
 
     sum_of_squares = sum([(prefs[person1][item] - prefs[person2][item]) ** 2
                             for item in prefs[person1]
                             if item in prefs[person2]])
-
     return 1 / (1 + sum_of_squares)
 
 
