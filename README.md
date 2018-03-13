@@ -1,6 +1,6 @@
-# Recommendation-Engine
+# Recommendation-System
 
---- Recommendation engine for Movie Lens Dataset.
+--- Recommendation System for Movie Lens Dataset.
 
 #### Used Metric
 - [x] Euclidean.
